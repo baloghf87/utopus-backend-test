@@ -1,0 +1,51 @@
+{
+	"list": {
+		"employee": [{
+				"name": "George Smith",
+				"department": "finance"
+			},
+			{
+				"name": "Michael Smith",
+				"department": [
+					"it",
+					"finance"
+				]
+			},
+			{
+				"name": "James Doyle",
+				"department": "packaging"
+			},
+			{
+				"name": "Peter Goeking",
+				"department": "finance"
+			},
+			{
+				"name": "Joanne Olsen",
+				"department": "finance"
+			},
+			{
+				"name": "Samuel Palmisano",
+				"department": "it"
+			},
+			{
+				"name": "Dale Miller",
+				"department": [
+					"packaging",
+					"finance"
+				]
+			},
+			{
+				"name": "Peter Goeking",
+				"department": "finance"
+			},
+			{
+				"name": "James Doyle",
+				"department": "packaging"
+			},
+			{
+				"name": "Peter Goeking",
+				"department": "it"
+			}
+		]
+	}
+}r

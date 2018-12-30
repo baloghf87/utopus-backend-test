@@ -1,0 +1,24 @@
+1.
+Make a console based application:
+- load employee.json file;
+- print out the employee groupped by department;
+  Sort the output list by department and the surname of the employee;
+  The multiple employees should be printed out only once.
+  If an employee belongs to multiple departments print it for each department.
+- write test(s) to check the result.
+  
+2.
+Make a Spring based Web application.
+Write three REST services which returns JSON outputs.
+- /employee/sort
+	Returns all employees full name ordered by their surname.
+- /employee/{employee-first-name}/{employee-last-name}/department
+	Returns departments the employee belongs to.
+	The name of the employee is URL parameters like above.
+- /department/{department-name}/employees
+	Returns the list of employees belonging to the given department.
+	Sort the result by surname.
+- write test(s) to check the result.
+
+The project should be built by Maven or Gradle.
+Make a short explanation of usage.
